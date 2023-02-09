@@ -1,3 +1,8 @@
+
+*{
+margin: 0;
+;
+}
 :root{
     --text-color: #502314;
     --primary-color: #D72300;
@@ -9,12 +14,14 @@
 
 @font-face {
     font-family: FlameSans;
-    src: url("../assets/fonts/FlameSans.otf") format("opentype"),;
+    src: url("../assets/fonts/FlameSans.otf") format("opentype"), url('../assets/fonts/FlameSans.otf') format('truetype');
 }
 
 @font-face {
     font-family: Flame-Regular;
-    src: url("../assets/fonts/FlameRegular.otf") format("opentype"),;
+    src: url("../assets/fonts/FlameRegular.otf") format("opentype"), url('../assets/fonts/FlameRegular.otf') format('truetype');
+
+
 }
 
 /**
@@ -86,5 +93,21 @@ img.banner-img {
 	color: #502314;
 	border-color: #613d31 !important;
 	box-shadow: 0 0 0 .25rem rgba(80,35,20,.25) !important;
+}
+.card-body {
+    width: 100rem;
+
+}
+#whopper{
+    width: 30rem;
+    float: left;
+}
+#img1{
+    width: 150px;
+    height: 80px;
+}
+#img2{
+    width: 120px;
+    height: 100px;
 }
 

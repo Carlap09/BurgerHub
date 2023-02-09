@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/images/Burger-King-Logo-CMS.png" type="image/x-icon"> <!-- Se debe cambiar por un .ico!!!-->
+    <link rel="shortcut icon" href="./assets/images/Burger-King-Logo-CMS.png" type="image/x-icon">
+    <!-- Se debe cambiar por un .ico!!!-->
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <title>BURGER KING® ARGENTINA</title>
@@ -48,11 +49,81 @@
     </header>
 
     <main class="main">
-        <!--Banner-->
-        <div class="container-fluit p-0 banner">
-            <img src="./assets/images/BK_WEB_ENERO_PROVO_BANNER-WEB_1280x920_250123.jpg" alt="Banner"
-                class="banner-img">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+                    aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
+                    aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8"
+                    aria-label="Slide 9"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9"
+                    aria-label="Slide 10"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10"
+                    aria-label="Slide 11"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/images/BK_WEB_ENERO_PROVO_BANNER-WEB_1280x920_250123.jpg"
+                        class="d-block w-100 .cimg" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/bannerhome-muzzasticks.png" class="d-block w-100 .cimg" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/BK_WEB_SEPTIEMBRE_NUGGETS-PLANT-BASE_HOME-BANNER_270922_1280x920_Mesa-de-trabajo-1.jpg"
+                        class="d-block w-100 .cimg" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/bannerweb-home-1280x920-op1.png" class="d-block w-100 .cimg" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/HomeBanner_STACKERXL-27.jpg" class="d-block w-100 .cimg" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./asset/images/HomeBanner_BONDIOLITA-KING.jpg" class="d-block w-100 .cimg" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/HomeBanner_KINGVEGETAL.jpg" class="d-block w-100 .cimg" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/1300_home.jpg" class="d-block w-100 .cimg" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/banner_home_620.jpg" class="d-block w-100 .cimg" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/images/BANNER-JPG-1280x920px_v4_slide_2.jpg" class="d-block w-100 .cimg"
+                        alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assetsimages/CleanWhopper_Web_slide_3.jpg" class="d-block w-100 .cimg" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
+
 
         <!--Locales Cercanos-->
         <div class="container mt-5 mb-5">
@@ -63,7 +134,8 @@
                     <input type="text" class="form-control input-locales" placeholder="Tu ciudad o dirección">
                 </div>
                 <div class="col-12 col-md-6">
-                    <img src="./assets/images/BK_ILLUSTRATION_PICKLE_EYE_MASK_ST_FC.png" alt="" class="img-locales pt-4 mx-auto pt-md-0 d-block">
+                    <img src="./assets/images/BK_ILLUSTRATION_PICKLE_EYE_MASK_ST_FC.png" alt=""
+                        class="img-locales pt-4 mx-auto pt-md-0 d-block">
                 </div>
             </div>
         </div>
@@ -71,31 +143,103 @@
 
         <!--Novedades-->
         <section class="container">
-            <h2>Novedades</h2>
+            <h2 class="novedades">Novedades</h2>
+            <button type="button" class="btn btn-link">Ver todo</button>
             <div class="row">
-                <div class="col">#Code Novedades</div>
-            </div>
-        </section>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/images/banner_home_620.jpg" class="rounded-4" class="card-img-top" alt="rusher">
+                        <div class="card-body">
+                            <h5 a href="#" class="btn" class="card-title">Bases y condiciones campera Rusher King y Bk
+                            </h5>
+                            <p class="card-text">Bases y condiciones- Fondo de pantalla.</p>
+
+                        </div>
 
 
-        <!--App delivery-->
-        <div class="app">
-            <div class="container">
-                <h2>BK Delivery</h2>
-                <div class="row">
-                    <div class="col">#Code APP deliverey</div>
-                </div>
-            </div>
-        </div>
+                        <!--App delivery-->
+                        <div class="app">
+                            <div class="container">
+                                <h2>BK Delivery</h2>
+                                <div class="row">
+                                    <div class="col">#Code APP deliverey</div>
+                                </div>
+                            </div>
+                        </div>
     </main>
 
 
     <footer class="footer container-fluit">
         <div class="container">
-        <div class="row">
-            <div class="col pt-3 pb-3">#Code Footer</div>
-        </div>
-        </div>
+            <div class="row">
+                <div class="col pt-3 pb-3">
+                    <h2>BURGER KING</h2>
+                </div>
+                <div class="col pt-3 pb-3">
+                    <h4>Info BK</h4>
+                    <p>
+                        <a href="#">Menu</a>
+                    </p>
+                    <p>
+                        <a href="#">Restaurantes</a>
+                    </p>
+                    <p>
+                        <a href="#">Cupones</a>
+                    </p>
+                    <p>
+                        <a href="#">Minutos BK</a>
+                    </p>
+                </div>
+                <div class="col pt-3 pb-3">
+                    <h4>Informacion</h4>
+                    <p>
+                        <a href="#">Sitemap</a>
+                    </p>
+                </div>
+                <div class="col pt-3 pb-3">
+                    <h3>My BK</h3>
+                    <p>
+                        <a href="#">Contactanos</a>
+                    </p>
+                    <p>
+                        <a href="#">Empleo</a>
+                    </p>
+                    <p>
+                        <a href="#">Delivery</a>
+                    </p>
+                    <p>
+                        <a href="#">Politica de privacidad</a>
+                    </p>
+                    <p>
+                        <a href="#">Defensa de las y los consumidores</a>
+                    </p>
+
+                </div>
+                <hr role="separator" aria-orientation="horizontal">
+
+                <div class="row">
+
+                    <div class="col pt-3 pb-3">
+
+                        <samp class="subtexto">TM © 2023 Burger King Corporation. Todos los derechos reservados.</samp>
+
+                    </div>
+
+                    <div class="col pt-3 pb-3"></div>
+
+                    <div class="col pt-3 pb-3">
+                        <a href="https://www.facebook.com/"><img src="./assets/images/facebook (1).svg"></a>
+                        <a href="https://twitter.com/"><img src="./assets/images/twitter.svg"></a>
+                        <a href="https://www.youtube.com/"><img src="./assets/images/youtube.svg"></a>
+                        <a href="https://instagram.com/"><img src="./assets/images/instagram.svg"></a>
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
